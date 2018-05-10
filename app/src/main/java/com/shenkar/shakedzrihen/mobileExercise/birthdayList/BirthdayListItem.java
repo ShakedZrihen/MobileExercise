@@ -91,7 +91,7 @@ public class BirthdayListItem {
             if (birhday.get(Calendar.DAY_OF_MONTH) >= today.get(Calendar.DAY_OF_MONTH)){
                 nextBday += birhday.get(Calendar.DAY_OF_MONTH) - today.get(Calendar.DAY_OF_MONTH);
             } else {
-                nextBday += (12 * 31) - today.get(Calendar.DAY_OF_MONTH) - birhday.get(Calendar.DAY_OF_MONTH);
+                nextBday += (12 * 31) - (today.get(Calendar.DAY_OF_MONTH) - birhday.get(Calendar.DAY_OF_MONTH));
             }
         } else {
             nextBday = (12 - (today.get(Calendar.MONTH) - birhday.get(Calendar.MONTH))) * 31;
