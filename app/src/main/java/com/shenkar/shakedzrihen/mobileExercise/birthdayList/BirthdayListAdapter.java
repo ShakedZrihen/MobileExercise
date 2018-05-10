@@ -1,4 +1,4 @@
-package com.shenkar.shakedzrihen.upcomingbdaylist;
+package com.shenkar.shakedzrihen.mobileExercise.birthdayList;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,9 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.shenkar.shakedzrihen.mobileExercise.R;
+
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.List;
 
 class BirthdayListAdapter extends RecyclerView.Adapter<BirthdayListAdapter.ViewHolder> {

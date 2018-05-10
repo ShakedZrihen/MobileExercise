@@ -1,4 +1,4 @@
-package com.shenkar.shakedzrihen.upcomingbdaylist;
+package com.shenkar.shakedzrihen.mobileExercise.birthdayList;
 
 import android.arch.persistence.room.Room;
 import android.content.Intent;
@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.shenkar.shakedzrihen.mobileExercise.R;
 
 
 public class AddNewBirthdayListItem extends AppCompatActivity {

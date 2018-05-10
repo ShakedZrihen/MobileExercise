@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-package="com.shenkar.shakedzrihen.upcomingbdaylist">
+package="com.shenkar.shakedzrihen.mobileExercise">
 
 <application
     android:allowBackup="true"
@@ -10,7 +10,7 @@ package="com.shenkar.shakedzrihen.upcomingbdaylist">
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
     <activity
-        android:name="com.shenkar.shakedzrihen.upcomingbdaylist.BirthdayListActivity"
+        android:name="com.shenkar.shakedzrihen.mobileExercise.birthdayList.BirthdayListActivity"
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar">
         <intent-filter>
@@ -20,8 +20,18 @@ package="com.shenkar.shakedzrihen.upcomingbdaylist">
         </intent-filter>
     </activity>
     <activity
-        android:name="com.shenkar.shakedzrihen.upcomingbdaylist.AddNewBirthdayListItem"
+        android:name="com.shenkar.shakedzrihen.mobileExercise.birthdayList.AddNewBirthdayListItem"
         android:label="Add new birthday">
+    </activity>
+    <activity
+        android:name="com.shenkar.shakedzrihen.mobileExercise.calculator.CalculatorMainActivity"
+        android:label="My First Calculator"
+        android:exported="true">
+    </activity>
+    <activity
+        android:name="com.shenkar.shakedzrihen.mobileExercise.MainActivity"
+        android:label="My All Exercises"
+        android:exported="true">
     </activity>
 </application>
 

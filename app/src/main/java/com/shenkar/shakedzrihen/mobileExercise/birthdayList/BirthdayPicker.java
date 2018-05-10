@@ -1,4 +1,4 @@
-package com.shenkar.shakedzrihen.upcomingbdaylist;
+package com.shenkar.shakedzrihen.mobileExercise.birthdayList;
 
 import android.app.DatePickerDialog;
 import android.content.Context;

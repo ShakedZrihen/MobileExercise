@@ -1,4 +1,4 @@
-package com.shenkar.shakedzrihen.upcomingbdaylist;
+package com.shenkar.shakedzrihen.mobileExercise.birthdayList;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.RoomDatabase;

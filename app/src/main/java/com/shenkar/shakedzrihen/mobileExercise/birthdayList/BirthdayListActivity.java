@@ -1,4 +1,4 @@
-package com.shenkar.shakedzrihen.upcomingbdaylist;
+package com.shenkar.shakedzrihen.mobileExercise.birthdayList;
 
 import android.arch.persistence.room.Room;
 import android.content.Intent;
@@ -10,7 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-
+import com.shenkar.shakedzrihen.mobileExercise.R;
 import java.text.ParseException;
 import java.util.Collections;
 import java.util.Comparator;
@@ -26,7 +26,7 @@ public class BirthdayListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.birthdaylist_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

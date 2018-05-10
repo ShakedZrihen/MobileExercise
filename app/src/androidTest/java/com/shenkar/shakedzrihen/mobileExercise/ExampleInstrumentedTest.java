@@ -1,4 +1,4 @@
-package com.shenkar.shakedzrihen.upcomingbdaylist;
+package com.shenkar.shakedzrihen.mobileExercise;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
