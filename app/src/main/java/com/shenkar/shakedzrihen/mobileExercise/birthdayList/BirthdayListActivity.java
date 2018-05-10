@@ -57,8 +57,12 @@ public class BirthdayListActivity extends AppCompatActivity {
                         return 0;
                     }
                 } );
-                birthdayListAdapter = new BirthdayListAdapter(bdListItems);
-                birthdayList.setAdapter(birthdayListAdapter);
+                BirthdayListActivity.this.runOnUiThread(new Runnable() {
+                    public void run() {
+                        birthdayListAdapter = new BirthdayListAdapter(bdListItems);
+                        birthdayList.setAdapter(birthdayListAdapter);
+                    }
+                });
             }
         }).start();
 
